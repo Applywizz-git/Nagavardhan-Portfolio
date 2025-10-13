@@ -50,8 +50,8 @@ const Certifications = () => {
                 {cert.name}
               </h3>
 
-              <p className="text-sm text-muted-foreground mb-1">{cert.issuer}</p>
-              <p className="text-xs text-muted-foreground mb-4">{cert.date}</p>
+              {/* <p className="text-sm text-muted-foreground mb-1">{cert.issuer}</p>
+              <p className="text-xs text-muted-foreground mb-4">{cert.date}</p> */}
 
               {cert.link && (
                 <motion.a
@@ -61,8 +61,8 @@ const Certifications = () => {
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center gap-2 text-primary font-semibold text-sm"
                 >
-                  View Certificate
-                  <ExternalLink size={16} />
+                  {/* View Certificate
+                  <ExternalLink size={16} /> */}
                 </motion.a>
               )}
             </motion.div>
