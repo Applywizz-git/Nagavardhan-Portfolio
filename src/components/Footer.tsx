@@ -54,7 +54,7 @@ const Footer = () => {
               transition={{ duration: 2, repeat: Infinity }}
               className="text-muted-foreground flex items-center justify-center gap-2"
             >
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by{" "}
+              {/* Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by{" "} */}
               <span className="text-gradient font-semibold">{portfolioData.name}</span>
             </motion.p>
             <p className="text-sm text-muted-foreground">
