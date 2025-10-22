@@ -77,7 +77,7 @@ const Projects = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   
                   {/* Overlay Buttons */}
-                  <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  {/* <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <motion.a
                       href={project.demoLink}
                       whileHover={{ scale: 1.1 }}
@@ -96,7 +96,7 @@ const Projects = () => {
                       <Github size={18} />
                       Code
                     </motion.a>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Project Details */}
