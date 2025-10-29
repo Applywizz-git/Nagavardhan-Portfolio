@@ -69,7 +69,7 @@ const Hero = () => {
           </Link>
 
           <motion.a
-            href="/assets/resume.pdf"
+            href="/assets/RESUME_NAGAVARDHAN_BATTU_GEN_AI.pdf"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
